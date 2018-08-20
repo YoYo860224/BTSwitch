@@ -1,12 +1,12 @@
 #define PIN_BUTTON 3
 #define PIN_RELAY  7
 
-bool buttonState = HIGH;
+bool buttonState = LOW;
 
 void setup() {
   pinMode(PIN_BUTTON, INPUT);
   pinMode(PIN_RELAY, OUTPUT);
-  digitalWrite(7, LOW);
+  digitalWrite(PIN_RELAY, LOW);
   
   // bluetooth
   Serial.begin(38400);
