@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Light Switch</string>
+    <string name="on_off">開/關</string>
+    <string name="disconnect">斷開連線</string>
+    <string name="Refresh">重新整理</string>
+</resources>
